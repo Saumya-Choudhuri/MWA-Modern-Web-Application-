@@ -1,0 +1,12 @@
+if i want to open a php file
+
+in terminal open bash(for mac)
+
+in terminal type cd /file/loaction
+
+then type php -S localhost:8000 
+
+in web search http://localhost:8000/index.html
+
+
+control+c to terminate file
