@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="new.php" method="POST">
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="USN">USN:</label>
+                <input type="text" id="USN" name="USN" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">Select Department</option>
+                    <option value="Computer Science Business Systems">Computer Science And Business Systems</option>
+                    <option value="Electrical Engineering">Electrical Engineering</option>
+                    <option value="Mechanical Engineering">Mechanical Engineering</option>
+                    <option value="Civil Engineering">Civil Engineering</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </form>    
+    </div>
+</body>
+</html>
